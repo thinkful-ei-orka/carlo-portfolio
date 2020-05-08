@@ -200,7 +200,7 @@ ul {
 
 .project-left {
     width: 40%;
-    height: 300px;
+    height: 600px;
     border: 3px solid white;
     background-color: rgb(226, 226, 226);
     border-radius: 50px;
@@ -209,11 +209,33 @@ ul {
 
 .project-right {
     width: 40%;
-    height: 300px;
+    height: 600px;
+    /* margin-top: 50px; */
     border: 3px solid white;
     background-color: rgb(226, 226, 226);
     border-radius: 50px;
     box-shadow: 3px 3px 5px 6px rgb(160, 160, 160);
+}
+
+.screenshot-container {
+    width: 90%;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screenshot {
+    display: block;
+    margin: auto;
+    max-width: 320px;
+    max-height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+
+.screenshot-description {
+    padding: 10px;
 }
 
 .technology-container {
@@ -235,6 +257,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 70%;
     height: 36px;
 }
