@@ -34,6 +34,8 @@ h5 {
 
 p {
     margin-top: 2px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -53,7 +55,7 @@ nav {
     font-size: 22px;
 }
 
-a {
+.nav-link {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -263,6 +265,7 @@ li {
 .screenshot-description {
     padding: 10px;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .technology-container {
@@ -360,7 +363,7 @@ li {
         font-size: 22px;
     }
 
-    a {
+    .nav-link {
         margin-left: 30px;
         margin-right: 30px;
     }
